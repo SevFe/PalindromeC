@@ -21,7 +21,7 @@ int main(void)
   {
     pRight = &stringGiven[target];
   }
-  if (length % 2 == 1)
+  else
   {
     pRight = &stringGiven[target + 1];
   }
