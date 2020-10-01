@@ -35,11 +35,9 @@ int main(void)
   if (strcmp(temp1, temp2) == 0)
   {
     printf("Palindrome\n");
-    return 0;
   }
   else 
   {
     printf("Not Palindrome\n");
-    return 1;
   }
 }
